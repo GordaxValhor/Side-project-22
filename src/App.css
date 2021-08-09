@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+  overflow:hidden;
+}
+@import url(//db.onlinewebfonts.com/c/87ffd2f0e73410751e4ce0003a38ded7?family=Tw+Cen+MT+W01);
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.Page-container {
+  background-color: #191919;
+  min-height: 100vh;
+  color: white;
+  
+}
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  color: white;
+}
+.App-body {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: white;
+  padding-top: 10px;
+}
+.Burger-thing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: height 1s ease-in-out;
+}
+.Buttonstyle {
+  
+  height: 10vh;
+  width: 400px;
+  background-color: #752921;
+  border: none;
+  margin: 15px;
+  color: white;
+  font-size: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: tw cen mt;
+
+}
+.Plusbutton{
+    display: none;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+.fade-text {
+  position: absolute;
+  text-align: center;
+  transform: translateX(110%);
+}
+.rotate {
+  transform-origin:  left;
+}
+.menu-style {
+  font-size: 14px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+
+}
+.menu-style > div  {
+  width: 52px;
+  height: 36px;
+  padding-top: 16px;
+  background-color: #272727;
+}
+.login-style > div  {
+  width: 52px;
+  height: 36px;
+  padding-top: 16px;
+  background-color: #272727;
+}
+.menu-style-open {
+  position: absolute;
+  background-color: #272727;
+  list-style-type: none;
+  padding: 10px 20px 10px 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-decoration: none;
+}
+.menu-style-open hr {
+  margin: 5px;
+  width: 80px;
+}
+.login-style {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.login-style-open {
+  position: absolute;
+  background-color: #272727;
+  list-style-type: none;
+  padding: 10px 10px 10px 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  cursor: pointer;
+}
+.ImgStyle {
+  height: 80px;
+  margin: 10px;
+  margin-left: 52px;
+}
+.App-link {
+  color: #61dafb;
+}
+.buttonStyle {
+    position: relative;
+    top: -80px;
+    right: 290px;
+    outline: none;
+    background: transparent;
+    border : none;
+    transform : rotate(45deg);
+    width: 40px;
+    cursor: pointer;
+    padding: 0;
+}
+.moreInfoStyleDiv {
+
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  top:-125px;
+  left: 15vw;
+  align-items: center;
+}
+.moreInfoStyleDiv > hr {
+  position: absolute;
+  border-top: 1px solid white;
+  transform: rotate(90deg);
+  height: 120px;
+  margin-left: 20px;
+  top: 3px;
+  left: 133px;
+}
+.moreInfoStyleDiv > img {
+  position: absolute;
+  top: 53px;
+  left: 120px;
+}
+.moreInfoStyle {
+    position: relative;
+    top: -60px;
+    right: 0px;
+}
+.moreInfoStyleDiv > div {
+  position: absolute;
+  top:3px;
+  left: 230px;
+  border: 1px solid white;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  min-width: 130px;
+}
+
